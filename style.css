@@ -752,12 +752,12 @@ div.nodes.right:hover {
 
 .nodes.left {
   left: 5%;
-    /*background-image: url("./images/micro-git-link.png");*/
+    background-image: "/images/micro-git-link.png";
 }
 
 div.nodes.left:hover {
   cursor: pointer;
-  /*background-image: url("./images/micro-git-link-hover.png");*/
+  background-image: "/images/micro-git-link-hover.png"
 
 }
 #bunny-icon {
