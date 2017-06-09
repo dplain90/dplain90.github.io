@@ -118,8 +118,8 @@ figure {
 div.about-hi img {
   border-color: white /* for an acceptable IE result*/;
   border-width: 15px;
-  -moz-border-image: url(http://tobias-reinhardt.de/img/frame.png) 15 stretch;
-  border-image: url(http://tobias-reinhardt.de/img/frame.png) 15 stretch;
+  /*-moz-border-image: url(http://tobias-reinhardt.de/img/frame.png) 15 stretch;*/
+  /*border-image: url(http://tobias-reinhardt.de/img/frame.png) 15 stretch;*/
   border-style: solid;
   margin: auto;
 }
@@ -388,7 +388,7 @@ html, body {
   content: "";
   height: 50px;
   width: 50px;
-  background-image: url('./images/wheel.png');
+  /*background-image: url('./images/wheel.png');*/
   background-size: cover;
   background-repeat: none;
   position: absolute;
@@ -686,7 +686,7 @@ div.stand:after {
 
 }
 .nodes {
-  background-image: url("./images/microcity-scrollin.png");
+  /*background-image: url("./images/microcity-scrollin.png");*/
   background-repeat: no-repeat;
 
   height: 400px;
@@ -742,22 +742,22 @@ div.stand:after {
 
 .nodes.right {
   right: -3%;
-  background-image: url("./images/micro-www-link.png");
+  /*background-image: url("./images/micro-www-link.png");*/
 }
 
 div.nodes.right:hover {
   cursor: pointer;
-  background-image: url("./images/micro-www-hover.png");
+  /*background-image: url("./images/micro-www-hover.png");*/
 }
 
 .nodes.left {
   left: 5%;
-    background-image: url("./images/micro-git-link.png");
+    /*background-image: url("./images/micro-git-link.png");*/
 }
 
 div.nodes.left:hover {
   cursor: pointer;
-  background-image: url("./images/micro-git-link-hover.png");
+  /*background-image: url("./images/micro-git-link-hover.png");*/
 
 }
 #bunny-icon {
@@ -840,7 +840,7 @@ box-shadow: 0 0 20px white;
 .avatar {
     width: 47px;
     height: 50px;
-    background-image: url("./images/robot4.png");
+    /*background-image: url("./images/robot4.png");*/
 
     -webkit-animation: play .10s steps(2) infinite;
        -moz-animation: play .10s steps(2) infinite;
