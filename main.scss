@@ -266,7 +266,7 @@ nav ul.purple-style a:hover:after {
 .footer {
   padding-top: 19px;
   color: #777;
-  
+
   /*border-top: 1px solid #e5e5e5;*/
 }
 
@@ -737,27 +737,27 @@ div.stand:after {
 .nodes{
   position: absolute;
   top: -5%;
-  z-index: 1;
+  z-index: 9000;
 }
 
 .nodes.right {
   right: -3%;
-  background-image: url("./images/micro-www-link.png");
+  background-image: url("../images/micro-www-link.png");
 }
 
 div.nodes.right:hover {
   cursor: pointer;
-  background-image: url("./images/micro-www-hover.png");
+  background-image: url("../images/micro-www-hover.png");
 }
 
 .nodes.left {
   left: 5%;
-    background-image: url("./images/micro-git-link.png");
+    background-image: url("../images/micro-git-link.png");
 }
 
 div.nodes.left:hover {
   cursor: pointer;
-  background-image: url("./images/micro-git-link-hover.png");
+  background-image: url("../images/micro-git-link-hover.png");
 
 }
 #bunny-icon {
