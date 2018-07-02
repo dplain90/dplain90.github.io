@@ -302,9 +302,9 @@ html, body {
   overflow-x: hidden;
 
 }
-.top-home {
 
-}
+
+
 
 .jumbotron .btn {
   padding: 14px 24px;
@@ -342,7 +342,7 @@ html, body {
     border-bottom: 0;
   }
 }
-.ferris_wheel ,.wheel {
+.ferris_wheel , .wheel {
   border: 6px solid #fff;
   width: 150px;
   height: 150px;
@@ -1098,4 +1098,214 @@ position: relative;
 .info li a:hover, .info li a:active {
   color: #277574;
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  img.top-home.lead {
+    height: 85%;
+    width: 85%;
+
+  }
+  div.about-desc {
+    text-align: left;
+  }
+  div.about-desc h2 {
+    font-size: 50px;
+    margin-left: 5rem;
+
+  }
+  div.about-desc p {
+        margin-left: 16rem;
+        font-size: 20px
+  }
+
+  img.me {
+    height: 400px;
+  }
+
+  figure {
+    margin-right: 14rem;
+  }
+
+  img.skills-img {
+    width: 85%;
+    height: 85%;
+  }
+  .skills-banner {
+    height: 51px;
+    width: 207px;
+  }
+  .skills-main a.scroll-down {
+    bottom: 0%;
+  }
+
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .projects h2 {
+    font-size: 70px;
+  }
+
+
+  img.projects-img {
+    height: 150px;
+  }
+
+  .classrabbit {
+    flex-direction: column;
+    padding: 30px 50px 20px 50px;
+    min-height: 675px;
+  }
+
+  #classrabbit-screens {
+    display: none;
+  }
+  .classrabbit-icon-links {
+    padding: 0px 200px;
+    margin-left: 3rem;
+  }
+
+  .nodes.right {
+    display: none !important;
+  }
+  .nodes.left {
+    display: none !important;
+  }
+  .class-stage {
+    width: 694px !important;
+    height: 323px !important;
+  }
+
+  h2#plain, h2#chess {
+    font-size: 68px !important;
+  }
+
+  .contact-main-img {
+      height: 385px;
+      margin-top: 75px;
+  }
+
+  .plainchess a.scroll-down {
+    bottom: 15%;
+  }
+
+  @media (max-width: 425px) {
+    header {
+      display: none;
+    }
+
+    .top-banner h1 {
+      font-size: 50px;
+    margin-top: 15rem;
+    }
+
+    img.top-home.lead {
+      height: 100%;
+      width: 100%;
+      margin-top: 25.5rem;
+    }
+    div.top-bg a.scroll-down.connect-icon.local {
+      font-size: 25px;
+    }
+
+
+    div.about-hi {
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 30rem 10rem 18rem;
+    }
+
+    img.me {
+      height: 375px;
+    }
+    .about-desc h2 {
+      margin-left: 30%;
+    }
+
+    .about-desc p {
+      text-align: center;
+
+    }
+    figure {
+        margin-left: 12rem;
+    }
+    .skills-banner {
+      display: none;
+    }
+
+    .skills-desc {
+      flex-direction: column;
+      padding: 30px 0px;
+      justify-content: flex-start;
+    }
+
+    .ferris_wheel {
+      display: none;
+
+    }
+
+    .skills {
+      height: 580px;
+    }
+    .skills-main h3 {
+      font-size: 20px;
+    }
+    .skills-row {
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+    }
+
+
+    .skills-title {
+
+
+    }
+    .projects h2 {
+      font-size: 48px;
+
+    }
+    .classrabbit-icon-links {
+      padding: 0px 20px;
+    }
+    .contact-left {
+      display: none;
+    }
+    .chess-stage {
+      height: 161.5px;
+      width: 347px;
+    }
+    .plainchess h2 {
+      font-size: 30px;
+    }
+
+    #chess {
+      position: absolute;
+      top: 7%;
+      right: 36.5%;
+    }
+    #plain {
+      top: 7%;
+      left: 35%;
+    }
+
+    #www-chess {
+      width: 103px;
+      height: 55px;
+      position: absolute;
+      bottom: unset;
+      bottom: 100%;
+      right: 30%;
+    }
+    #git-chess {
+
+      bottom: 100%;
+      left: 31%;
+    }
+    .microcity {
+        display: none;
+    }
+  }
+
 }
