@@ -1219,7 +1219,7 @@ position: relative;
     img.me {
       height: 375px;
     }
-    .about-desc h2 {
+    div.about-desc h2 {
       margin-left: 30%;
     }
 
@@ -1229,6 +1229,7 @@ position: relative;
     }
     figure {
         margin-left: 12rem;
+       margin-right: 0px;
     }
     .skills-banner {
       display: none;
@@ -1244,10 +1245,10 @@ position: relative;
       display: none;
 
     }
-
     .skills {
-      height: 580px;
+      height: 740px;
     }
+
     .skills-main h3 {
       font-size: 20px;
     }
@@ -1257,10 +1258,9 @@ position: relative;
       padding: 0px;
     }
 
-
     .skills-title {
 
-
+      font-size: 60px;
     }
     .projects h2 {
       font-size: 48px;
@@ -1272,11 +1272,11 @@ position: relative;
     .contact-left {
       display: none;
     }
-    .chess-stage {
+    div.plainchess-main img.chess-stage {
       height: 161.5px;
       width: 347px;
     }
-    .plainchess h2 {
+    div#plainchess h2#plain {
       font-size: 30px;
     }
 
