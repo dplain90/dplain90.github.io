@@ -1178,9 +1178,8 @@ position: relative;
   }
 
   h2#plain, h2#chess {
-    font-size: 68px !important;
+    font-size: 68px;
   }
-
   .contact-main-img {
       height: 385px;
       margin-top: 75px;
@@ -1298,6 +1297,12 @@ position: relative;
       bottom: 100%;
       right: 30%;
     }
+    h2#plain, h2#chess {
+      font-size: 30px;
+    }
+    .plainchess a.scroll-down {
+    bottom: 0%;
+  }
     #git-chess {
 
       bottom: 100%;
